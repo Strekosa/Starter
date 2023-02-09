@@ -24,6 +24,7 @@ if ( ! isset( $content_width ) ) {
  * GitHub URI: https://github.com/twittem/wp-codeska-navwalker
  * Description: A custom WordPress nav walker class to implement the codeska 3 navigation style in a custom theme using the WordPress built in menu manager.
  */
+
 class Codeska_Navwalker extends Walker_Nav_Menu {
 
 	/**

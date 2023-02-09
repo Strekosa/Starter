@@ -37,7 +37,7 @@
 			</a><!-- /.brand -->
 
 			<nav class="nav-primary header__nav navbar navbar-expand-lg navbar-light bg-light">
-				<button class="navbar-toggler show-on-mobile" type="button" data-toggle="collapse" data-target="#primaryNavBar"
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavBar"
 						aria-controls="primaryNavBar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>

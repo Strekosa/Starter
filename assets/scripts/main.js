@@ -6,7 +6,7 @@ import "jquery"
 import "./autoload/**/*"
 
 
-
+// Menu
 "use strict"
 const isMobile = {
 	Android: function () {
@@ -18,10 +18,10 @@ const isMobile = {
 	Windows: function () {
 		return navigator.userAgent.match(/IEMobile/i);
 	},
-	BlackBerry: function() {
+	BlackBerry: function () {
 		return navigator.userAgent.match(/BlackBerry/i);
 	},
-	iOS: function() {
+	iOS: function () {
 		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
 	},
 	any: function () {
@@ -41,7 +41,7 @@ if (isMobile.any()) {
 	let menuArrows = document.querySelectorAll('.nav-desc')
 	if (menuArrows.length > 0) {
 		for (let i = 0; i < menuArrows.length; i++) {
-			let thisArrow=menuArrows[i];
+			let thisArrow = menuArrows[i];
 			let subMenu = menuArrows[i].nextElementSibling;
 			menuArrows[i].addEventListener("click", function () {
 				// menuArrow.parentElement.classList.toggle('active');
